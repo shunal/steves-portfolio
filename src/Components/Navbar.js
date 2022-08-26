@@ -8,7 +8,7 @@ function Navbar() {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" style={{color:"white"}} href="google.com">Browser Game</a>
+                {/* <a class="nav-link" style={{color:"white"}} href="google.com">Browser Game</a> */}
             </div>
             </div>
         </div>

@@ -1,11 +1,14 @@
 import Steve from '../Steve1080.png'
+import Coding from '../codingwhite.png'
+import Communication from '../communicationwhite.png'
+import WebDesign from '../web-designwhite.png'
 import classes from './styles.module.css'
 
 function Certifications() {
     return(
         <div>
-            <div class="container-fluid" style={{backgroundColor:"#1e1d24"}}>
-                <div class= "row align-items-center "  >
+            <div class="container-fluid " style={{backgroundColor:"#1e1d24"}}>
+                <div class="row align-items-center" style={{paddingTop:"80px"}}>
                     <div class="col-md-2"></div>
                     <div class="col-md-2" >
                                     <h1 class="text-start" >
@@ -14,6 +17,9 @@ function Certifications() {
                                 
                                     <h1 class="text-start" >
                                         Hunal.
+                                    </h1>
+                                    <h1 class="text-start" >
+                                        ___
                                     </h1>
 
                                     <h5 class="text-start" >
@@ -24,13 +30,11 @@ function Certifications() {
                                     </div>
                     </div>
                     <div class="col-md-4">
-                        <img src={Steve} class="img-fluid" style={{maxWidth:'60%', }} alt="me"/>
+                        <img src={Steve} class="img-fluid" style={{maxWidth:'70%', }} alt="me"/>
                     </div>
-    
-                    
                     <div class="col-md-4"  >
                         <div class="">
-                            <h4 class="text-start" style={{color: "#f58b0a"}}>Introduction</h4>
+                            <h4 class="text-start" style={{color: "#f58b0a"}}>INTRODUCTION</h4>
 
                             <h2 class="text-start">Software Engineer</h2>
                             <h2 class="text-start">Web Developer</h2>
@@ -38,36 +42,47 @@ function Certifications() {
                         </div>
                     </div>
                 </div>
-                <div class= "row" style={{backgroundColor:"#25242d",border: "1px solid orange", alignContent:"center"}}>
-                    <h2>What I am Great at</h2>
-                    <p>Lorem ipsum</p>
+            
+                <div class="row align-items-center" style={{backgroundColor:"#25242d", paddingBottom:"60px"}}>
+                    <h5 style={{paddingTop:"80px", color: "#f58b0a"}}>SERVICES</h5>
+                    <h2 >What I'm Great At</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <p> incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="row" style={{border: "1px solid orange"}}>
-                    <div class="col-md-4" style={{border: "1px solid orange"}}>
-                        <h3>Web Design</h3>
+                <div class="row align-items-center" style={{ backgroundColor:"#25242d",paddingBottom:"80px"}}>
+                    <div class="col-md-4">
+                        <div style = {{ backgroundColor:"#1e1d24", paddingTop:"40px", paddingBottom:"40px"}}>
+                            <img src={WebDesign} class="img-fluid" style={{maxWidth:'20%'}} alt="me"/>
+                            <h3 style={{paddingTop:"20px"}}>Web Design</h3>
+                        </div>
                     </div>
-                    <div class="col-md-4" style={{border: "1px solid orange"}}>
-                        <h3>Web Development</h3>
+                    <div class="col-md-4" >
+                        <div style = {{ backgroundColor:"#1e1d24" ,paddingTop:"40px", paddingBottom:"40px"}}>
+                            <img src={Coding} class="img-fluid" style={{maxWidth:'20%', }} alt="me"/>
+                            <h3 style={{paddingTop:"20px"}}>Software Engineering</h3>
+                        </div>
                     </div>
-                    <div class="col-md-4" style={{border: "1px solid orange"}}>
-                        <h3>Client Interaction</h3>
+                    <div class="col-md-4" >
+                        <div style = {{ backgroundColor:"#1e1d24", paddingTop:"40px", paddingBottom:"40px"}}>
+                            <img src={Communication} class="img-fluid" style={{maxWidth:'20%', }} alt="me"/>
+                            <h3 style={{paddingTop:"20px"}}>Client Communication</h3>
+                        </div>
                     </div>
                 </div>
-                <div class="row" style={{backgroundColor:"#25242d", border: "1px solid orange"}}>
+                <div class="row" style={{paddingTop:"80px"}} >
                     <div class="col">
                         <h2>Ways To Contact Me</h2>
-                        <div class="row">
-                            <div class="col-3" style={{border: "1px solid orange"}}>
+                        <div class="row"style={{paddingTop:"80px", paddingBottom:"80px"}}>
+                            <div class="col-md-3" >
 
                             </div>
-                            <div class="col-3 float-end" style={{border: "1px solid orange"}}>
-                                <h3>Email</h3>
+                            <div class="col-md-3 float-end">
+                                <h3>stevehunal@gmail.com</h3>
                             </div>
-                            <div class="col-3" style={{border: "1px solid orange"}}>
-                                <h3 >Phone</h3>
+                            <div class="col-md-3">
+                                <h3>201-657-9588</h3>
                             </div>
-                            <div class="col-3" style={{border: "1px solid orange"}}>
-
+                            <div class="col-md-3">
                             </div>
                         </div>
                     </div>
