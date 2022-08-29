@@ -1,6 +1,6 @@
 function Navbar() {
     return(
-        <nav class="navbar navbar-expand-lg navbar-light " style={{backgroundColor:"#1e1d24"}}>
+        <nav class="navbar  navbar-expand-lg navbar-light " style={{backgroundColor:"#1e1d24", borderBottom:"1px solid black"}}>
         <div class="container-fluid" style={{backgroundColor:"#1e1d24"}}>
             <a style={{color: "white"}}class="navbar-brand" href="/">SH</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

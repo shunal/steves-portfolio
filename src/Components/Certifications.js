@@ -1,130 +1,154 @@
-import Steve from '../Steve1080.png'
+import Steve from '../Steve10.png'
 import Coding from '../codingwhite.png'
 import Communication from '../communicationwhite.png'
 import WebDesign from '../web-designwhite.png'
-import classes from './styles.module.css'
-
+import Navbar from './Navbar'
 function Certifications() {
     return(
         <div>
-            <div class="container-fluid " style={{backgroundColor:"#1e1d24"}}>
-                <div class="row align-items-center" style={{paddingTop:"80px"}}>
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2" >
-                                    <h1 class="text-start" >
-                                        Steven
-                                    </h1>
-                                
-                                    <h1 class="text-start" >
-                                        Hunal.
-                                    </h1>
-                                    <h1 class="text-start" >
-                                        ___
-                                    </h1>
+            {/* INTRODUCTION  */}
+            <div class="container-fluid" >
+                    <div class="row align-items-center maindiv">
+                        <Navbar/>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2" >
+                            <h1 class="text-start">
+                                Steven
+                            </h1>
+                            <h1 class="text-start" >
+                                Hunal.
+                            </h1>
+                            <h1 class="text-start" >
+                                _
+                            </h1>
+                            <h5 class="text-start" >
+                                <a href="https://www.linkedin.com/in/steven-hunal-02ab54b4/">LinkedIn</a>
+                            </h5>
+                            <div class="text-start">
+                                <h5>
+                                <a href="https://github.com/shunal">Github</a>
+                                </h5>
+                                {/* <button class="btn ">Contact Me</button> */}
+                            </div>
+                        </div>
+                        <div class="col-md-4" >
+                            <img src={Steve} class="img-fluid"  alt="me"/>
+                        </div>
+                        <div class="col-md-4" style={{}} >
+                            <div>
+                                <div class="waviy text-start mt-3">
+                                    <span style={{"--i": 1, color: "#f58b0a"}}>I</span>
+                                    <span style={{"--i": 2, color: "#f58b0a"}}>N</span>
+                                    <span style={{"--i": 3, color: "#f58b0a"}}>T</span>
+                                    <span style={{"--i": 4, color: "#f58b0a"}}>R</span>
+                                    <span style={{"--i": 5, color: "#f58b0a"}}>O</span>
+                                    <span style={{"--i": 6, color: "#f58b0a"}}>D</span>
+                                    <span style={{"--i": 7, color: "#f58b0a"}}>U</span>
+                                    <span style={{"--i": 8, color: "#f58b0a"}}>C</span>
+                                    <span style={{"--i": 9, color: "#f58b0a"}}>T</span>
+                                    <span style={{"--i": 10, color: "#f58b0a"}}>I</span>
+                                    <span style={{"--i": 11, color: "#f58b0a"}}>O</span>
+                                    <span style={{"--i": 12, color: "#f58b0a"}}>N</span>
 
-                                    <h5 class="text-start" >
-                                        LinkedIn
-                                    </h5>
-                                    <div class="text-start">
-                                        <button class="btn ">Contact Me</button>
-                                    </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src={Steve} class="img-fluid" style={{maxWidth:'70%', }} alt="me"/>
-                    </div>
-                    <div class="col-md-4"  >
-                        <div class="">
-                            <h4 class="text-start" style={{color: "#f58b0a"}}>INTRODUCTION</h4>
 
-                            <h2 class="text-start">Software Engineer</h2>
-                            <h2 class="text-start">Web Developer</h2>
-                            <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                                </div>
+                                <h2 class="text-start mt-3">Software Engineer/</h2>
+                                <h2 class="text-start mb-3">Web Developer</h2>
+                                <p class="text-start mb-5" >I'm an enthusiastic, soccer-crazed full-stack engineer with a passion for building responsive web applications.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                {/* SKILLS */}
+            <div class= "container-fluid" style={{backgroundColor:"#25242d"}}>
+                <div class="row align-items-center gx-1" >
+                    <div class="waviy my-4 py-4">
+                        <span style={{"--i": 1, color: "#f58b0a"}}>S</span>
+                        <span style={{"--i": 2, color: "#f58b0a"}}>K</span>
+                        <span style={{"--i": 3, color: "#f58b0a"}}>I</span>
+                        <span style={{"--i": 4, color: "#f58b0a"}}>L</span>
+                        <span style={{"--i": 5, color: "#f58b0a"}}>L</span>
+                        <span style={{"--i": 6, color: "#f58b0a"}}>S</span>
+                    </div>
+                    
+                </div>
+                <div class="row align-items-center" style={{ backgroundColor:"#25242d"}}>
+                    <div class="col-md-4">
+                        <img src={WebDesign} class="img-fluid" style={{maxWidth:'20%'}} alt="me"/>
+                        <h3 class="my-4">Web Design</h3>
+                        <p>Javascript</p>
+                        <p>CSS</p>
+                        <p>ReactJS</p>
+                        <p>Redux</p>
+                        <p>Bootstrap CSS</p>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src={Coding} class="img-fluid" style={{maxWidth:'20%', }} alt="me"/>
+                        <h3 class="my-4">Software Engineering</h3>
+                        <p>Ruby</p>
+                        <p>Ruby on Rails</p>
+                        <p>Python</p>
+                        <p>Flutter</p>
+                        <p>C#</p>
+                        <p>ASP.NET Core MVC</p>
+                    </div>
+                    <div class="col-md-4" >
+                        <img src={Communication} class="img-fluid" style={{maxWidth:'20%', }} alt="me"/>
+                        <h3 class="my-4">Client Communication</h3>
+                        <p>Chubb Insurance</p>
+                        <p>Vertex Inc</p>
+                        <p>Candoris</p>
+                        <p>Adventures In Odyssey</p>
+                        <p>Taxamo</p>
+                        <p>Soccer Coliseum</p>
+                    </div>
+                </div>
+                <div class="row">
+                        <ul>
+                            
+                            
+                            
+                        </ul>
+                </div>
+            </div>
             
-                <div class="row align-items-center" style={{backgroundColor:"#25242d", paddingBottom:"60px"}}>
-                    <h5 style={{paddingTop:"80px", color: "#f58b0a"}}>SERVICES</h5>
-                    <h2 >What I'm Great At</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                    <p> incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div class="row align-items-center" style={{ backgroundColor:"#25242d",paddingBottom:"80px"}}>
-                    <div class="col-md-4">
-                        <div style = {{ backgroundColor:"#1e1d24", paddingTop:"40px", paddingBottom:"40px"}}>
-                            <img src={WebDesign} class="img-fluid" style={{maxWidth:'20%'}} alt="me"/>
-                            <h3 style={{paddingTop:"20px"}}>Web Design</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4" >
-                        <div style = {{ backgroundColor:"#1e1d24" ,paddingTop:"40px", paddingBottom:"40px"}}>
-                            <img src={Coding} class="img-fluid" style={{maxWidth:'20%', }} alt="me"/>
-                            <h3 style={{paddingTop:"20px"}}>Software Engineering</h3>
-                        </div>
-                    </div>
-                    <div class="col-md-4" >
-                        <div style = {{ backgroundColor:"#1e1d24", paddingTop:"40px", paddingBottom:"40px"}}>
-                            <img src={Communication} class="img-fluid" style={{maxWidth:'20%', }} alt="me"/>
-                            <h3 style={{paddingTop:"20px"}}>Client Communication</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" style={{paddingTop:"80px"}} >
+
+            {/* <h2>Certifications</h2>
+                <ul>
+                    <ul>Certified Kubernetes Administrator(CKA) - Issued by Linux Foundation January 2021</ul>
+                    <ul>VMware Certified Master Specialist Cloud Native - Issued by VMware April 2021</ul>
+                    <ul>Atlassian Certified in Managing Jira Project For Cloud (ACP-MJCP) - Issued by Atlassian May 2022</ul>
+                </ul> */}
+
+                {/* CONTACT */}
+            <div class="container-fluid" style={{backgroundColor:"#1e1d24"}}>
+                <div class="row"  >
                     <div class="col">
-                        <h2>Ways To Contact Me</h2>
-                        <div class="row"style={{paddingTop:"80px", paddingBottom:"80px"}}>
-                            <div class="col-md-3" >
-
-                            </div>
-                            <div class="col-md-3 float-end">
-                                <h3>stevehunal@gmail.com</h3>
+                            <div class="waviy my-4 pt-5">
+                            <span style={{"--i": 1, color: "#f58b0a"}}>C</span>
+                            <span style={{"--i": 2, color: "#f58b0a"}}>O</span>
+                            <span style={{"--i": 3, color: "#f58b0a"}}>N </span>
+                            <span style={{"--i": 4, color: "#f58b0a"}}>T</span>
+                            <span style={{"--i": 5, color: "#f58b0a"}}>A </span>
+                            <span style={{"--i": 6, color: "#f58b0a"}}>C</span>
+                            <span style={{"--i": 7, color: "#f58b0a"}}>T</span>
+                        </div>
+                        <div class="row my-5">
+                            <div class="col-md-3" ></div>
+                            <div class="col-md-3 mb-5">
+                                <h5 style={{color: "#f58b0a"}}>stevehunal@gmail.com</h5>
                             </div>
                             <div class="col-md-3">
-                                <h3>201-657-9588</h3>
+                                <h5 style={{color: "#f58b0a"}}>201-657-9588</h5>
                             </div>
-                            <div class="col-md-3">
-                            </div>
+                            <div class="col-md-3"></div>
                         </div>
                     </div>
-
                 </div>
-                
             </div>
         </div>
-        
-        
-        // <div class='container-fluid' style={{backgroundColor:'beige'}}>
-        //         <div class="row">
-                    
-        //             <div class="col-4" style={{backgroundColor:"black"}}>
-        //                 <img src={Steve} class="img-fluid float-end" style={{maxWidth:'50%', }} alt="me"/>
-        //             </div>
-        //             <div class="col-4" style={{}}>
-        //             <span >SOFTWARE ENGINEER</span>
-        //             </div>
-        //             <div class="col-4">
-        //                 <ul>
-        //                     <ul>Javascript ES6</ul>
-        //                     <ul>ReactJS</ul>
-        //                     <ul>Redux</ul>
-        //                     <ul>Bootstrap CSS</ul>
-        //                     <ul>HTML5</ul>
-        //                     <ul>Ruby</ul>
-        //                     <ul>Ruby on Rails</ul>
-        //                     <ul>Python</ul>
-        //                     <ul>Flutter</ul>
-        //                     <ul>C#</ul>
-        //                     <ul>ASP.NET Core MVC</ul>
-        //                     <ul>Salesforce Development</ul>
-        //                     <ul>Git</ul>
-        //                     <ul>Docker</ul>
-        //                     <ul>Kubernetes</ul>
-        //                     <ul>Jira</ul>
-        //                     <ul>Agile</ul>
-        //                 </ul>
-        //             </div>
-        //         </div>
-        //     </div>
     )
 }
 
