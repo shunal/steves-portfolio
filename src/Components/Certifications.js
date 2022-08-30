@@ -138,10 +138,10 @@ function Certifications() {
                         <div class="row my-5">
                             <div class="col-md-3" ></div>
                             <div class="col-md-3 mb-5">
-                                <h5 style={{color: "#f58b0a"}}>stevehunal@gmail.com</h5>
+                                <h5>stevehunal@gmail.com</h5>
                             </div>
                             <div class="col-md-3">
-                                <h5 style={{color: "#f58b0a"}}>201-657-9588</h5>
+                                <h5>201-657-9588</h5>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
